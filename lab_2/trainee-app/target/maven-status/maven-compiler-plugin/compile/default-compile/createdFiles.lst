@@ -1,0 +1,10 @@
+org\cap\dao\ITraineeDao.class
+org\cap\controller\TraineeController.class
+org\cap\entities\Trainee.class
+org\cap\config\MyWebApplicationInitializer.class
+org\cap\service\ITraineeService.class
+org\cap\dao\TraineeDaoImpl.class
+org\cap\service\TraineeServiceImpl.class
+org\cap\entities\User.class
+org\cap\config\MyWebMVCConfig.class
+org\cap\util\SessionDetails.class

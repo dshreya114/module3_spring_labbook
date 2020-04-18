@@ -1,0 +1,11 @@
+com\capg\service\ProductServiceImpl.class
+com\capg\config\MyWebApplicationInitializer.class
+com\capg\config\MyWebMVCConfig.class
+com\capg\dao\IProductDao.class
+com\capg\dao\ProductDaoImpl.class
+com\capg\dto\ProductDto.class
+com\capg\exceptions\ProductNotFoundException.class
+com\capg\controller\ProductRestController.class
+com\capg\entities\Product.class
+com\capg\service\IProductService.class
+com\capg\controller\HelloController.class

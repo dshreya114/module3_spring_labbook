@@ -1,0 +1,10 @@
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\config\MyWebMVCConfig.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\entities\Trainee.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\controller\TraineeController.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\service\TraineeServiceImpl.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\dao\TraineeDaoImpl.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\entities\User.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\dao\ITraineeDao.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\util\SessionDetails.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\service\ITraineeService.java
+D:\capg-demo\module3\labbook_spring\lab_2\trainee-app\src\main\java\org\cap\config\MyWebApplicationInitializer.java

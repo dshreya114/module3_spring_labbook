@@ -1,0 +1,11 @@
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\controller\ProductRestController.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\dto\ProductDto.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\dao\IProductDao.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\service\ProductServiceImpl.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\config\MyWebMVCConfig.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\controller\HelloController.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\dao\ProductDaoImpl.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\entities\Product.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\config\MyWebApplicationInitializer.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\exceptions\ProductNotFoundException.java
+D:\capg-demo\module3\labbook_spring\lab_3\product-app\src\main\java\com\capg\service\IProductService.java
