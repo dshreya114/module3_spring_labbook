@@ -14,6 +14,7 @@ import com.capg.exceptions.ProductNotFoundException;
 import com.capg.service.IProductService;
 
 @RestController
+@RequestMapping(value = "/products")
 public class ProductRestController {
 
 	private static Logger Log= LoggerFactory.getLogger(ProductRestController.class);
@@ -21,14 +22,14 @@ public class ProductRestController {
     @Autowired
     private IProductService service;
 
-	@GetMapping("/products/find/{id}")
+	@GetMapping("/find/{id}")
     public ResponseEntity<Product> getProduct(@PathVariable("id") int id) {
     	Product product = service.findById(id);
         ResponseEntity<Product> response = new ResponseEntity<>(product, HttpStatus.OK);
         return response;
     }
 
-    @PostMapping("/products/add")
+    @PostMapping("/add")
     public ResponseEntity<Product> addProductt(@RequestBody ProductDto dto) {
         Product product = convert(dto);
        product = service.update(product);
@@ -44,21 +45,21 @@ public class ProductRestController {
     }
 
 
-    @GetMapping("/products")
+    @GetMapping
     public ResponseEntity<List<Product>> fetchAll() {
         List<Product> products = service.fetchAll();
         ResponseEntity<List<Product>> response = new ResponseEntity<>(products, HttpStatus.OK);
         return response;
     }
 
-    @DeleteMapping("/products/delete/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<Boolean>deleteProduct(@PathVariable("id") int id){
        boolean result= service.remove(id);
        ResponseEntity<Boolean>response=new ResponseEntity<>(result, HttpStatus.OK);
        return response;
     }
 
-    @PutMapping("/products/update/{id}")
+    @PutMapping("/update/{id}")
     public ResponseEntity<Product>updateProduct(@RequestBody ProductDto dto ,@PathVariable("id") int id){
     	Product  product=convert(dto);
         product.setProdId(id);
